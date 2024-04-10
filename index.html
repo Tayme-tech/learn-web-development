@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My css website</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <ul class="topnav " id="dropdownclick">
-            <li><a href="#Home">Home</a></li>
-            <li><a href="#News">News</a></li>
-            <li><a href="#Contacts">Contact</a></li>
-            <li><a href="#About">About</a></li>
-            <li class="topnav-right"><a href="#Signup">Sign up</a></li>
-            <li class="topnav-right"><a href="#Signin">Sign in</a></li>
-            <li class="dropdownIcon"><a href="javascript:void(0);"onclick="dropdownmenu()">&#9776;</a></li>
-        </ul>
-    </nav>
- 
-
-<script>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My css website</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul class="topnav " id="dropdownclick">
+                <li>
+                    <a href="#Home">Home</a>
+                </li>
+                <li>
+                    <a href="#News">News</a>
+                </li>
+                <li>
+                    <a href="#Contacts">Contact</a>
+                </li>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li class="topnav-right">
+                    <a href="#Signup">Sign up</a>
+                </li>
+                <li class="topnav-right">
+                    <a href="#Signin">Sign in</a>
+                </li>
+                <li class="dropdownIcon">
+                    <a href="javascript:void(0);" onclick="dropdownmenu()">blow</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container" id="section-1-gradient"></div>
+        <script>
     function dropdownmenu() {
-        var x = document.getElementById("dropdownclick");
-        if (x.className === "topnav") {
-            x.classmates === "responsive";
-            /*change topnav to topnav.responsive*/ 
-        } else {
-            x.className = "topnav";
-        }
+        console.log("show my name", 2+2);
+
     }
-</script>
-</body>
+        </script>
+    </body>
 </html>
